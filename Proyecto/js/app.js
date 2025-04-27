@@ -3,12 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const nav = document.getElementById('nav');
     const dropdown = document.querySelector('.dropdown');
 
-    // Alternar menú móvil
     menuToggle.addEventListener('click', () => {
         nav.classList.toggle('open');
     });
 
-    // Alternar dropdown en móvil
     dropdown.addEventListener('click', (e) => {
         if (window.innerWidth <= 768) {
             e.preventDefault();
@@ -16,11 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-
-
-
-
-    // — Nuevo slider por transform —
     const slidesContainer = document.querySelector('.slides');
     const prevBtn = document.querySelector('.prev');
     const nextBtn = document.querySelector('.next');
@@ -44,13 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     nextBtn.addEventListener('click', nextSlide);
     prevBtn.addEventListener('click', prevSlide);
 
-    // Auto-slide cada 5s
     setInterval(nextSlide, 5000);
 
-    // Inicia mostrando la primera
     showSlide(0);
 
-    // Contador de caracteres
     const mensajeField = document.getElementById('mensaje');
     const charCount = document.getElementById('charCount');
 
