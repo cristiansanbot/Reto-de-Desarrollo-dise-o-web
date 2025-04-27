@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Servicios</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Portafolio</h1>
+            <button id="menu-toggle" class="menu-toggle">☰</button>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="servicios.html">Servicios ▼</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="servicios.html#desarrollo-web">Desarrollo Web</a></li>
+                            <li><a href="servicios.html#apps-moviles">Apps Móviles</a></li>
+                            <li><a href="servicios.html#seo-marketing">SEO y Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Bienvenido a mi portafolio</h2>
+                <p>Soy desarrollador web y estoy listo para ayudarte con tu proyecto.</p>
+            </div>
+        </section>
+
+        <section id="slider" class="container slider">
+            <div class="slides">
+                <div class="slide active"><img src="Images/a.png" alt="Proyecto 1"></div>
+                <div class="slide"><img src="Images/b.png" alt="Proyecto 2"></div>
+                <div class="slide"><img src="Images/c.png" alt="Proyecto 3"></div>
+                <div class="slide"><img src="Images/d.png" alt="Proyecto 4"></div>
+                <div class="slide"><img src="Images/e.png" alt="Proyecto 5"></div>
+                <div class="slide"><img src="Images/f.png" alt="Proyecto 6"></div>
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
