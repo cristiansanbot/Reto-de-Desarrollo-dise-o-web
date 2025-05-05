@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reto-de-desarrollo-dise-o-web.vercel.app/sitemap.xml
